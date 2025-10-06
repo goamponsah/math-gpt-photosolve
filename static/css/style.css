@@ -1,0 +1,41 @@
+/* Custom styles for the Math GPT site */
+
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main.container {
+  flex: 1;
+}
+
+footer {
+  font-size: 0.9rem;
+}
+
+/* Make cards same height */
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Highlight active nav link */
+.navbar .nav-link.active {
+  font-weight: bold;
+}
+
+/* Result box formatting */
+#result {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Hide file input default text for a cleaner look */
+input[type="file"]::-webkit-file-upload-button {
+  display: none;
+}
+
+input[type="file"]::file-selector-button {
+  display: none;
+}
